@@ -326,7 +326,7 @@ def apply_chance_bonus(items, bonus_percent):
     return modified
 
 
-def main_menu_keyboard(is_admin=False):
+def main_menu_keyboard(is_admin=true):
     kb = [
         [KeyboardButton(text="🎁 Магазин кейсов"), KeyboardButton(text="📦 Мой инвентарь")],
         [KeyboardButton(text="🎰 Казино"), KeyboardButton(text="🎀 Ежедневный кейс")],
